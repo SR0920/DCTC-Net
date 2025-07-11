@@ -51,9 +51,9 @@ Our DCTC-Net is a novel hybrid architecture designed to leverage the complementa
 
 In our paper, we evaluated DCTC-Net on three public datasets:
 
-1.  **ISIC 2018:** [Link to dataset or download instructions]
-2.  **LiTS-Liver (LiTS17):** [Link to dataset or download instructions]
-3.  **ACDC:** [Link to dataset or download instructions]
+1.  **ISIC 2018** 
+2.  **LiTS-Liver (LiTS17)** 
+3.  **ACDC** 
 
 **Data Preparation:**
 
@@ -107,8 +107,6 @@ The script will output the evaluation metrics (Dice, JA, SE, etc.) reported in t
 ## 🌟 Results
 
 Our DCTC-Net achieves state-of-the-art performance on multiple medical image segmentation benchmarks.
-
-**(Optional: 在这里可以插入一个关键的结果表格或图表)**
 
 | Model      | Dataset    | Dice (%) | 
 |------------|------------|----------|
