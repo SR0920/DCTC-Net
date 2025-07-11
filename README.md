@@ -14,14 +14,14 @@ Our DCTC-Net is a novel hybrid architecture designed to leverage the complementa
   <em>Figure 1: The overall architecture of DCTC-Net.</em>
 </p>
 
-## Highlights
+## 🌟 Highlights
 
 - **Hybrid CNN-Transformer Design:** Achieves a superior balance of local detail extraction and global context modeling.
 - **Novel Modules:** Introduces DDConv and (S)W-ACAM to specifically address challenges in medical imaging, such as organ deformation and complex backgrounds.
 - **High Efficiency:** Delivers state-of-the-art performance with fewer parameters and lower computational cost compared to many existing methods.
 - **No Pre-training Required:** Achieves excellent results without relying on pre-training on large-scale datasets like ImageNet.
 
-## Installation
+## 🚀 Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -49,7 +49,7 @@ Our DCTC-Net is a novel hybrid architecture designed to leverage the complementa
     - tqdm
     - ... (列出其他关键依赖)
 
-## Datasets
+## 📊 Datasets
 
 In our paper, we evaluated DCTC-Net on three public datasets:
 
@@ -103,7 +103,7 @@ python train.py --dataset ISIC2018 --model_name dctc_net_t --batch_size 16 --epo
 
 Training logs and model checkpoints will be saved to the `experiments/` directory by default.
 
-## Evaluation
+## 🧪 Evaluation
 
 To evaluate a trained model, use the `test.py` script. You need to provide the path to the trained model checkpoint.
 
@@ -115,7 +115,7 @@ python test.py --dataset ISIC2018 --model_name dctc_net_t --checkpoint_path expe
 
 The script will output the evaluation metrics (Dice, JA, SE, etc.) reported in the paper.
 
-## Pre-trained Models
+## 🚀 Pre-trained Models
 
 We provide the pre-trained weights for our DCTC-Net-T and DCTC-Net-B models for all three datasets to facilitate reproducibility.
 
@@ -128,7 +128,7 @@ We provide the pre-trained weights for our DCTC-Net-T and DCTC-Net-B models for 
 
 You can download them and use the `--resume` flag in `test.py` to load the weights.
 
-## Results
+## 🌟 Results
 
 Our DCTC-Net achieves state-of-the-art performance on multiple medical image segmentation benchmarks.
 
