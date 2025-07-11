@@ -1,8 +1,6 @@
 # DCTC-Net: Dual Branch Cross-Fusion Transformer-CNN Architecture for Medical Image Segmentation
 
-[![Paper](https://img.shields.io/badge/paper-arXiv-red)](https://arxiv.org/abs/YOUR_ARXIV_ID_HERE) <!-- 论文发布后替换链接 -->
-[![Conference](https://img.shields.io/badge/IEEE-TNNLS-blue)](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) <!-- 如果有会议/期刊链接 -->
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+<!-- [![Conference](https://img.shields.io/badge/IEEE-TNNLS-blue)](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems) -->
 
 This repository contains the official PyTorch implementation for the paper: **"DCTC-Net: Dual Branch Cross-Fusion Transformer-CNN Architecture for Medical Image Segmentation"**.
 
@@ -47,7 +45,7 @@ Our DCTC-Net is a novel hybrid architecture designed to leverage the complementa
     - SimpleITK
     - NiBabel
     - tqdm
-    - ... (列出其他关键依赖)
+    - ...
 
 ## 📊 Datasets
 
