@@ -83,7 +83,7 @@ python preprocess/prepare_lits.py --data_path ./data/LiTS
 ```
 *(请在此处提供更详细的数据预处理说明，或者链接到一个单独的 `data_preparation.md` 文件)*
 
-## Training
+## 🚀 Training
 
 To train the DCTC-Net model on a specific dataset, use the `train.py` script.
 
