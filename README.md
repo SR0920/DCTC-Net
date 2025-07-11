@@ -23,7 +23,7 @@ Our DCTC-Net is a novel hybrid architecture designed to leverage the complementa
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/DCTC-Net.git
+    git clone https://github.com/SR0920/DCTC-Net.git
     cd DCTC-Net
     ```
 
@@ -72,15 +72,6 @@ Please follow these steps to prepare the data. We expect the directory structure
 │   └── masks/
 ```
 
-You can run the preprocessing script to convert the data into the required format (e.g., `.npy` files).
-
-```bash
-python preprocess/prepare_isic.py --data_path ./data/ISIC2018
-python preprocess/prepare_lits.py --data_path ./data/LiTS
-# ... etc.
-```
-*(请在此处提供更详细的数据预处理说明，或者链接到一个单独的 `data_preparation.md` 文件)*
-
 ## 🚀 Training
 
 To train the DCTC-Net model on a specific dataset, use the `train.py` script.
@@ -113,53 +104,17 @@ python test.py --dataset ISIC2018 --model_name dctc_net_t --checkpoint_path expe
 
 The script will output the evaluation metrics (Dice, JA, SE, etc.) reported in the paper.
 
-## 🚀 Pre-trained Models
-
-We provide the pre-trained weights for our DCTC-Net-T and DCTC-Net-B models for all three datasets to facilitate reproducibility.
-
-| Model       | Dataset    | Download Link                                 |
-|-------------|------------|-----------------------------------------------|
-| DCTC-Net-T  | ISIC 2018  | [Link to .pth file]                           |
-| DCTC-Net-B  | ISIC 2018  | [Link to .pth file]                           |
-| DCTC-Net-T  | LiTS-Liver | [Link to .pth file]                           |
-| ...         | ...        | ...                                           |
-
-You can download them and use the `--resume` flag in `test.py` to load the weights.
-
 ## 🌟 Results
 
 Our DCTC-Net achieves state-of-the-art performance on multiple medical image segmentation benchmarks.
 
 **(Optional: 在这里可以插入一个关键的结果表格或图表)**
 
-| Model      | Dataset    | Dice (%) | JA (%)  |
-|------------|------------|----------|---------|
-| DCTC-Net-B | ISIC 2018  | **91.23**| **84.76** |
-| DCTC-Net-B | LiTS-Liver | **96.82**| ...     |
-| DCTC-Net-B | ACDC       | **91.95**| ...     |
+| Model      | Dataset    | Dice (%) | 
+|------------|------------|----------|
+| DCTC-Net-B | ISIC 2018  | **91.23**| 
+| DCTC-Net-B | LiTS-Liver | **96.82**| 
+| DCTC-Net-B | ACDC       | **91.95**| 
 
 For more details, please refer to our paper.
 
-## Citation
-
-If you find our work useful in your research, please consider citing our paper:
-
-```bibtex
-@article{YourName2024DCTCNet,
-  title={DCTC-Net: Dual Branch Cross-Fusion Transformer-CNN Architecture for Medical Image Segmentation},
-  author={Author 1 and Author 2 and ...},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
-  year={2024},
-  % volume={XX},
-  % number={XX},
-  % pages={XXXX-XXXX},
-}
-```
-
-## Acknowledgements
-
-We would like to thank ... (感谢任何提供帮助的个人或组织，例如数据集提供方、计算资源支持等).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.# DCTC-Net
