@@ -9,7 +9,7 @@ This repository contains the official PyTorch implementation for the paper: **"D
 Our DCTC-Net is a novel hybrid architecture designed to leverage the complementary strengths of CNNs and Transformers for robust and efficient medical image segmentation. It features a **Dynamic Deformable Convolution (DDConv)** module to adaptively capture local features and a **(Shifted)-Window Adaptive Complementary Attention Module ((S)W-ACAM)** to model global dependencies with high efficiency.
 
 <p align="center">
-  <img src="assets/dctc_net_architecture.png" width="800" alt="DCTC-Net Architecture">
+  <img src="assets/DCTC-Net.png" width="800" alt="DCTC-Net Architecture">
   <br>
   <em>Figure 1: The overall architecture of DCTC-Net.</em>
 </p>
